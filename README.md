@@ -7,12 +7,6 @@
 - Create a new folder to store the task logger source files, i.e **E:\tools** or similar
 - Copy all the source files to the new folder
 
-### Setting the Windows executable path
-- Press keys **Win+x** then **y**, type in **Find a setting** search bar: **view advanced system settings**, then click on result of search.
-- Click on **Environment Variables...** 
-- Select **Path** under the **User Variables for **. 
-- Click **Edit..** then click **New** then enter **E:\tools** or the location the source files are stored
-
 ### Configuring folder path and activity logger file name
 - Open file **log.py**
 - Update line **7** if required, this sets the location and name of the **activity_log.txt**
@@ -23,6 +17,12 @@
 ```python
 Line7: LOG_FILE = r"E:\tools\activity_log.txt"
 ```
+
+### Setting the Windows executable path
+- Press keys **Win+x** then **y**, type in **Find a setting** search bar: **view advanced system settings**, then click on result of search.
+- Click on **Environment Variables...** 
+- Select **Path** under the **User Variables for **. 
+- Click **Edit..** then click **New** then enter **E:\tools** or the location the source files are stored
 
 ### Usage examples
 #### Logging a activity or task
