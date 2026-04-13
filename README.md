@@ -2,9 +2,10 @@
 
 ### Installation
 
+- Click on green **<> Code** button on this GitHub repository and select **Download ZIP** to download the source files.
+- Extract the **activity_logger-main.zip** archive
 - Create a new folder to store the task logger source files, i.e **E:\tools** or similar
-- Click on green **<> Code** button on this GitHub repository and select **Download ZIP** to download the source files to the new folder **E:\tools**
-- Extract the ZIP archive
+- Copy all the source files to the new folder
 
 ### Setting the Windows executable path
 - Press keys **Win+x** then **y**, type in **Find a setting** search bar: **view advanced system settings**, then click on result of search.
