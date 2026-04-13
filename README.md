@@ -13,6 +13,17 @@
 - Select **Path** under the **User Variables for **. 
 - Click **Edit..** then click **New** then enter **E:\tools** or the location the source files are stored
 
+### Configuring folder path and activity logger file name
+- Open file **log.py**
+- Update line **7** if required, this sets the location and name of the **activity_log.txt**
+- Enter the file path and file name within the double quotes "" "".
+- If the folder or path does not exist it will be created on first run of **log**
+
+**log.py**
+```python
+Line7: LOG_FILE = r"E:\tools\activity_log.txt"
+```
+
 ### Usage examples
 #### Logging a activity or task
 - Open a **Command Prompt** or **Windows Terminal**
